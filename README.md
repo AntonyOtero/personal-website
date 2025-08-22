@@ -2,7 +2,7 @@
 
 This repository contains the source code for [antonyotero.com](https://antonyotero.com/)
 
-The site serves as my digital home base — a place for future personal projects, writing, and professional work. At present, it primarily points toward [framework.antonyotero.com](framework.antonyotero.com)
+The site serves as my digital home base — a place for future personal projects, writing, and professional work. At present, it primarily points toward [framework.antonyotero.com](https://framework.antonyotero.com)
 , which is the core project I’m actively developing.
 
 ## Status
