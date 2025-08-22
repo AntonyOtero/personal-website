@@ -15,38 +15,9 @@ import '@fontsource-variable/inter';
 		<meta name="generator" content={Astro.generator} />
 		<title>Antony Otero Espinal</title>
 	</head>
-	<body class="bg-seasalt text-night">
+	<body class="bg-seasalt text-night font-sans">
         <Header />
-        <main class="container min-w-full min-h-screen flex flex-col items-center justify-center px-6 py-20">
-            <div class="max-w-4xl mx-auto text-center">
-                <!-- Name Display -->
-                <div>
-                    <h1 class="font-serif text-6xl md:text-8xl text-center font-medium mb-4">
-                        ANTONY
-                        <span class="block">
-                            OTERO ESPINAL
-                        </span>
-                    </h1>
-                </div>
-
-                <!-- Description -->
-                 <div class="max-w-2xl mx-auto mt-8 mb-12">
-                    <p class="txt-lg leading-relaxed">
-                        Exploring the intersection of philosophy, creativity, and practical living. Building a personal framework for conscious action and growth — while preparing to begin my journey in the United States Navy.
-                    </p>
-                 </div>
-            </div>
-
-            <!-- Action Buttons -->
-             <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                <button class="bg-night text-seasalt hover:bg-berkeley h-10 rounded-md px-8 cursor-pointer">
-                    <a href="#">View Framework</a>
-                </button>
-                <button class="border bg-seasalt text-night hover:bg-berkeley hover:text-seasalt h-10 rounded-md px-8 cursor-pointer">
-                    <a href="mailto:antonyotero.nyc@gmail.com">Contact Me</a>
-                </button>
-             </div>
-        </main>
+        <slot />
 		<Footer />
 	</body>
 </html>
