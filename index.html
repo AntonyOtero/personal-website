@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>void.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .geist-mono {
+        font-family: "Geist Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        min-height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        min-height: 100svh;
+        overflow: hidden;
+        background: #050505;
+        color: #f2f2ef;
+      }
+
+      .void {
+        position: relative;
+        bottom: 3vh;
+        margin: 0;
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </head>
+
+  <body class="geist-mono">
+    <p class="void">void.</p>
+  </body>
+</html>
